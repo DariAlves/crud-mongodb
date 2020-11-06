@@ -1,10 +1,13 @@
 {
   "name": "crud-mongodb",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "repository": "https://github.com/DariAlves/crud-mongodb.git",
   "author": "Dari Alves <darieltondf@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "nodemon"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
