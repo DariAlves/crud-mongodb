@@ -6,7 +6,6 @@ const routes = require('./routes');
 require('dotenv/config');
 
 // Routes
-app.use(express.json());
 app.use(routes);
 
 // Connect to DATABASE
